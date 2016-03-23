@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0cd4f85-e6ef-4b04-9920-c5473cf38771" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accountbook/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accountbook/constants.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accountbook/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accountbook/rest_api_v1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/accountbook/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accountbook/models.py" afterPath="$PROJECT_DIR$/accountbook/models.py" />
     </list>
     <ignored path="AccountBook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +51,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/accountbook/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37908497">
-              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.33769062">
+              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="e#44#82#0" expanded="true" />
               </folding>
@@ -497,7 +493,7 @@
         <state vertical-scroll-proportion="0.12195122">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
           <folding>
-            <element signature="e#44#82#0" expanded="true" />
+            <element signature="e#44#82#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -540,8 +536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/accountbook/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37908497">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.33769062">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="e#44#82#0" expanded="true" />
           </folding>

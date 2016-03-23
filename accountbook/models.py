@@ -38,8 +38,8 @@ class AccountUser(User):
 class Bill(models.Model):
     date = models.DateField(verbose_name="日期")
     amount = models.FloatField(verbose_name="金额")
-    bill_type = models.IntegerField(verbose_name="类型", default=BillType.Expense.code,
-                                         choices=BillType.all())
+    # bill_type = models.IntegerField(verbose_name="类型", default=BillType.Expense.code,
+    #                                      choices=BillType.all())
     remark = models.TextField(verbose_name="备注", blank=True)
     category = models.ForeignKey("Category", verbose_name="分类")
 
