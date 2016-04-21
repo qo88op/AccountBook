@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'accountbook',
     'gunicorn',
+    'django_hstore',
 ]
 
 MIDDLEWARE_CLASSES = [
