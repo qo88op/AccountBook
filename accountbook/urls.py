@@ -15,8 +15,20 @@ Including another URLconf
 """
 from django.conf.urls import url, patterns, include
 from django.contrib import admin
+from django.contrib.auth.views import redirect_to_login
+from django.shortcuts import redirect
+
+
+def index(request):
+    url = "/static/index.html"
+    if request.user.is_authenticated():
+        return redirect_to_login(url)
+    return redirect(url)
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/v1/', include('accountbook.rest_api_v1')),
+    url(r'^open/v1/', include('accountbook.rest_open_v1')),
+
+    url(r'^$', index, name='index')
 ]
